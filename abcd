@@ -10,3 +10,20 @@ print('sum:', result)
 sum: 5
 print('Output=', result)
 Output= 5
+
+
+name='Gnana Dheeban'
+name
+'Gnana Dheeban'
+
+name.center(30)
+'        Gnana Dheeban         '
+
+name.ljust(20)
+'Gnana Dheeban       '
+
+name.rjust(20)
+'       Gnana Dheeban'
+
+str.swapcase(name)
+'gNANA dHEEBAN'
