@@ -59,3 +59,42 @@ for i in range(1,4):
 name[::-1]
 'ssenignoL'
 
+
+
+Today we see Operators types
+#Arithmetic opertors(+ - *)
+#Logical operators(and or)
+#assignment operators(== +=)
+#relatioal operators(> >=)
+
+a=10
+b=20
+c=a+b
+print(c)
+30
+c=a-b
+print(c)
+-10
+c=a*b
+print(c)
+200
+a and b
+20
+a or b
+10
+a=10
+print(a)
+10
+a==10
+True
+a+=10
+a=10
+a+=10
+print(a)
+20
+a>b
+False
+a>=b
+True
+
+
