@@ -98,3 +98,24 @@ a>=b
 True
 
 
+#string concatenation and #string formatting
+
+name='Dheeban'
+place='Poonammallee'
+age=27
+name+' '+place+' '+str(age)
+'Dheeban Poonammallee 27'
+
+print('My name is {0} coming from {1} my age is {2}')
+My name is {0} coming from {1} my age is {2}
+print('My name is {0} coming from {1} my age is {2}'.format(name,place,age))
+My name is Dheeban coming from Poonammallee my age is 27
+
+print('My name is %s coming from %s my age is %s'%(name,place,age))
+My name is Dheeban coming from Poonammallee my age is 27
+
+
+print('My name is',name, 'coming from',place, 'my age is',age)
+My name is Dheeban coming from Poonammallee my age is 27
+
+
