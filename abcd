@@ -119,3 +119,32 @@ print('My name is',name, 'coming from',place, 'my age is',age)
 My name is Dheeban coming from Poonammallee my age is 27
 
 
+
+#listing
+item=['Sony', 'Playstation', 'PS4 Pro', 'Console', 'God of War']
+item
+['Sony', 'Playstation', 'PS4 Pro', 'Console', 'God of War']
+item.copy()
+['Sony', 'Playstation', 'PS4 Pro', 'Console', 'God of War']
+item.insert(4,'Blade of Chaos')
+item
+['Sony', 'Playstation', 'PS4 Pro', 'Console', 'Blade of Chaos', 'God of War']
+item.remove('Console')
+item
+['Sony', 'Playstation', 'PS4 Pro', 'Blade of Chaos', 'God of War']
+item.append('Console')
+item
+['Sony', 'Playstation', 'PS4 Pro', 'Blade of Chaos', 'God of War', 'Console']
+item.pop()
+'Console'
+item
+['Sony', 'Playstation', 'PS4 Pro', 'Blade of Chaos', 'God of War']
+item.sort()
+
+item
+['Blade of Chaos', 'God of War', 'PS4 Pro', 'Playstation', 'Sony']
+item.clear()
+item
+[]
+
+
