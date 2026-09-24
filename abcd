@@ -120,7 +120,7 @@ My name is Dheeban coming from Poonammallee my age is 27
 
 
 
-#listing
+#list
 item=['Sony', 'Playstation', 'PS4 Pro', 'Console', 'God of War']
 item
 ['Sony', 'Playstation', 'PS4 Pro', 'Console', 'God of War']
@@ -128,7 +128,32 @@ item.copy()
 ['Sony', 'Playstation', 'PS4 Pro', 'Console', 'God of War']
 item.insert(4,'Blade of Chaos')
 item
-['Sony', 'Playstation', 'PS4 Pro', 'Console', 'Blade of Chaos', 'God of War']
+['Sony', 'Playstation', 'PS4 Pro', 'Console', 'Blade of Chaos', 'God of War']l=['playstation','console','stablizer']
+l
+['playstation', 'console', 'stablizer']
+t=('home','tv','sofa','bed')
+v=list(l)
+v.append('remote')
+v
+['playstation', 'console', 'stablizer', 'remote']
+t=tuple(v)
+v
+['playstation', 'console', 'stablizer', 'remote']
+l
+['playstation', 'console', 'stablizer']
+t
+('playstation', 'console', 'stablizer', 'remote')
+s={'ak','vijay','str','surya','vikram'}
+s
+{'vijay', 'surya', 'vikram', 'str', 'ak'}
+s.difference('surya')
+{'vijay', 'surya', 'vikram', 'str', 'ak'}
+y={'ak','joseph','dhanush'}
+y
+{'joseph', 'ak', 'dhanush'}
+s.difference(y)
+{'vikram', 'vijay', 'surya', 'str'}
+
 item.remove('Console')
 item
 ['Sony', 'Playstation', 'PS4 Pro', 'Blade of Chaos', 'God of War']
@@ -148,3 +173,4 @@ item
 []
 
 
+#tuple and #set
