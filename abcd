@@ -174,3 +174,34 @@ item
 
 
 #tuple and #set
+
+#dictionary
+check.setdefault('age')
+27
+check
+{'name': 'gd', 'age': 27, 'city': 'chennai'}
+check.setdefault(27)
+
+check
+{'name': 'gd', 'age': 27, 'city': 'chennai', 27: None}
+check.clear()
+check
+{}
+check={'name':'gd','age':27,'city':'chennai'}
+check
+{'name': 'gd', 'age': 27, 'city': 'chennai'}
+check.setdefault('bloodgroup')
+check
+{'name': 'gd', 'age': 27, 'city': 'chennai', 'bloodgroup': None}
+check.update(data)
+check
+{'name': 'gd', 'age': 27, 'city': 'chennai', 'bloodgroup': 'B+', 'height': 143.3, 'weight': 585.5}
+check={'name':'gd','age':27,'city':'chennai'}
+check
+{'name': 'gd', 'age': 27, 'city': 'chennai'}
+check.values()
+dict_values(['gd', 27, 'chennai'])
+
+
+
+
