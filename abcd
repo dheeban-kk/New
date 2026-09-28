@@ -203,5 +203,92 @@ check.values()
 dict_values(['gd', 27, 'chennai'])
 
 
+#update marks, grades using conditions(if...., elif....., else....)
+Tamil=-1
+English=49.9
+Maths=75
+Science=85
+Social=101
+if Tamil>=90 and Tamil<=100:
+    print('Tamil=',Tamil,'Grade O')
+elif Tamil>=80 and Tamil<=89:
+    print('Tamil=',Tamil,'Grade A')
+elif Tamil>=70 and Tamil<=79:
+    print('Tamil=',Tamil,'Grade B')
+elif Tamil>=60 and Tamil<=69:
+    print('Tamil=',Tamil,'Grade C')
+elif Tamil>=50 and Tamil<=59:
+    print('Tamil=',Tamil,'Grade D')
+elif Tamil>100:
+    print('Enter correct number')
+elif Tamil<=0:
+    print('Values does not enter in negative')
+else:
+    print('FAIL')
+if English>=90 and English<=100:
+    print('English=',English,'Grade O')
+elif English>=80 and English<=89:
+    print('English=',English,'Grade O')
+elif English>=70 and English<=79:
+    print('English=',English,'Grade B')
+elif English>=60 and English<=69:
+    print('English=',English,'Grade C')
+elif English>=50 and English<=59:
+    print('English=',English,'Grade D')
+elif English>100:
+    print('Enter correct number')
+elif English<=0:
+    print('Values does not enter in negative')
+else:
+    print('FAIL')
+if Maths>=90 and Maths<=100:
+    print('Maths=',Maths,'Grade O')
+elif Maths>=80 and Maths<=89:
+    print('Maths=',Maths,'Grade A')
+elif Maths>=70 and Maths<=79:
+    print('Maths=',Maths,'Grade B')
+elif Maths>=60 and Maths<=69:
+    print('Maths=',Maths,'Grade C')
+elif Maths>=50 and Maths<=59:
+    print('Maths=',Maths,'Grade D')
+elif Maths>100:
+    print('Enter correct number')
+elif Maths<=0:
+    print('Values does not enter in negative')
+else:
+    print('FAIL')
+if Science>=90 and Science<=100:
+    print('Science=',Science,'Grade O')
+elif Science>=80 and Science<=89:
+    print('Science=',Science,'Grade A')
+elif Science>=70 and Science<=79:
+    print('Science=',Science,'Grade B')
+elif Science>=60 and Science<=69:
+    print('Science=',Science,'Grade C')
+elif Science>=50 and Science<=59:
+    print('Science=',Science,'Grade D')
+elif Science>100:
+    print('Enter correct number')
+elif Science<=0:
+    print('Values does not enter in negative')
+else:
+    print('FAIL')
+if Social>=90 and Social<=100:
+    print('Social=',Social,'Grade O')
+elif Social>=80 and Social<=89:
+    print('Social=',Social,'Grade A')
+elif Social>=70 and Social<=79:
+    print('Social=',Social,'Grade B')
+elif Social>=60 and Social<=69:
+    print('Social=',Social,'Grade C')
+elif Social>=50 and Social<=59:
+    print('Social=',Social,'Grade D')
+elif Social>100:
+    print('Enter correct number')
+elif Social<=0:
+    print('Values does not enter in negative')
+else:
+    print('FAIL')
+
 
 
