@@ -290,5 +290,31 @@ elif Social<=0:
 else:
     print('FAIL')
 
-
+#we can see how we can print different types of angles
+#Right angle triangle
+for i in range(1,6):
+    for j in range(0,i):
+        print (i, end=' ')
+    print()
+#Left angle triangle
+for i in range(1,6):
+    for j in range(6,i,-1):
+        print(' ',end=' ')
+    for k in range(i):
+        print(i,end=' ')
+    print()
+#Pyramid
+for i in range(1,6):
+    for j in range(6,i,-1):
+        print('',end=' ')
+    for k in range(i):
+        print(i,end=' ')
+    print()
+#Pyramid in symeetrical looking
+for a in range(0,6):
+    for b in range(6-a):
+        print(' ',end=' ')
+    for c in range(2*a-1):
+        print(a,end=' ')
+    print()
 
